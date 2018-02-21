@@ -50,7 +50,7 @@ export class GameControlComponent {
   }
 
   private getNextIterator(): number {
-    return ++this.myIterator;
+    return this.myIterator++;
   }
 
   public onStartGameClicked() {
